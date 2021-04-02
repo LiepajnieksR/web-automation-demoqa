@@ -54,7 +54,7 @@ Feature: DemoQA - Elements page
     Then I see "Table row" with the following data:
       | First name | Last name | Age | Email                  | Salary | Department |
       | Joe        | Trump     | 53  | example@testdevlab.com | 10000  | Security   |
-
+@run
   Scenario: Buttons
     When I click "Buttons option"
     And  I double click "Double click me button"

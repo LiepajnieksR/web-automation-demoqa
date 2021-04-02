@@ -21,7 +21,7 @@ public class WebTablesPage extends ElementsPage {
   // Search field on the right side;
   public static By SEARCH_FIELD = css("input[id='searchBox']");
   // Find a selector that represents rows, should be total of 10
-  public static By TABLE_ROW = css("div[class='rt-tbody']");
+  public static By TABLE_ROW = css("div[class='rt-tr-group']");
   // Public methods ----------------------------------------------------------------------------------------------------
   public void waitForPageToLoad() {
     getElement(WEB_TABLES_TITLE).waitUntilPresent();
