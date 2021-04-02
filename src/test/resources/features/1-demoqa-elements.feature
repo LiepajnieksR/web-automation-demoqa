@@ -5,7 +5,7 @@ Feature: DemoQA - Elements page
     And   I click "Elements"
     Then  I am on the "Elements" page
 
-  @run
+
   Scenario: Text Box
     When I click "Text Box option"
     And  I set "Full Name field" to "Donald Biden"
@@ -38,6 +38,7 @@ Feature: DemoQA - Elements page
     When I click "Impressive button"
     Then "Selected result" should contain "Impressive"
     And  "No button" should be "disabled"
+
 
   Scenario: Web Tables
     When I click "Web Tables option"
